@@ -1,0 +1,33 @@
+h1 {
+  color: limegreen;
+  background-color: black;
+}
+h1:hover {
+  background-color: red;
+  transition: background-color 1s;
+}
+p {
+  color: DarkGreen;
+  font-size: 20px;
+  background-color: limegreen;
+}
+body {
+  background-color: teal;
+}
+ul {
+  color: hotpink;
+  background-color: black;
+  font-size: 23px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p:hover {
+  background-color: red;
+  color: yellow;
+  transition: color 1s;
+  font-size: 20px;
+  transition: font-size 20px;
+}
